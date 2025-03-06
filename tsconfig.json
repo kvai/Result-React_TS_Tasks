@@ -114,6 +114,6 @@
   "exclude": ["node_modules"],
   "lib": ["esnext"],
   "ts-node": {
-    "esm": true
-  }
+    "esm": true, // «———— enabling ESM for ts-node   
+  }, 
 }
